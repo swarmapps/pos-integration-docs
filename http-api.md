@@ -139,7 +139,7 @@ When a transaction is started `basket` information, the `saleTotal` in cents and
 
 ``` javascript
 {
- // The basket is an array of sale items, including sku, unitPrice and quantity
+ // The basket is an array of sale items, including sku, unitPrice(total cents) and quantity
  "basket" [{"sku" "COFFCAP", "unitPrice" 2200, "quantity" 2}],
  "basketId" "123456" // A id that uniquely identifies the sale, should come from POS software
  "saleTotal" 4400, // Total cents
