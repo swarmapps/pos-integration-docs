@@ -2,7 +2,7 @@
 
 Swarm provides a simple HTTP/JSON API that allows POS providers & developers to interact with Swarms loyalty engine and supports direct integration with point-of-sale software(POS).
 
-- API access is over HTTPS using root endpoint: https://vsp.swarmapps.com/moonunit
+- API access is over HTTPS using root endpoint: https://vsp.swarmapps.com/moonunit/v1
 - Data is sent and received using JSON
 
 ## Response codes
